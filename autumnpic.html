@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="autumnpic.js"></script>
+
+  <style>
+    #introScreen {
+      text-align: center;
+    }
+
+    #drawScreen {
+      width: 100vw;
+      height: 100vh;
+      margin: auto;
+      text-align: center;
+    }
+
+    #autumn {
+      border: solid;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="introScreen">
+    <h1 style="font-size: 10em; margin-bottom: 0;">Autumn</h1>
+    <h2>A canvas drawing of a scene in autumn</h2>
+    </p>Press the button to see the drawing.</p>
+    <button onclick="draw()" style="font-family: 'Times New Roman', serif;">CLICK ME</button>
+  </div>
+
+  <div id="drawScreen" style="display: none;">
+    <canvas id="autumn" width="1475" height="800"></canvas>
+  </div>
+</body>
+
+</html>
